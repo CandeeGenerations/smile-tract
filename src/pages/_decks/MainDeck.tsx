@@ -124,7 +124,11 @@ export default function MainDeck() {
         <Text>The Bible says,</Text>
 
         <Text>
-          <strong>"But as many as received Him, to them gave He power to become the sons of God." John 1:12</strong>
+          <strong>
+            "But as many as received Him, to them gave He power to become the sons of God."
+            <br />
+            John 1:12
+          </strong>
         </Text>
       </Slide>
 
@@ -140,7 +144,9 @@ export default function MainDeck() {
         <Text>
           <strong>
             "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to
-            him..." Revelation 3:20
+            him..."
+            <br />
+            Revelation 3:20
           </strong>
         </Text>
       </Slide>
@@ -221,7 +227,7 @@ export default function MainDeck() {
         </FlexBox>
 
         <FlexBox alignItems="center" justifyContent="start">
-          <div style={{flex: 1}}>
+          <div>
             <StopIcon height={40} width={40} style={{marginRight: 10}} />
           </div>
           <Text>I did not receive (I rejected)</Text>
