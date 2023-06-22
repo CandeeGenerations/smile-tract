@@ -1,8 +1,14 @@
-import {QuestionMarkCircleIcon, StopIcon} from '@heroicons/react/24/outline'
+import {ArrowLongLeftIcon, ArrowLongRightIcon, QuestionMarkCircleIcon, StopIcon} from '@heroicons/react/24/outline'
 import React from 'react'
 import {Deck, FlexBox, Heading, Image, Slide, Text} from 'spectacle'
 
 export default function MainDeck() {
+  const nextArrow = (
+    <FlexBox justifyContent="end">
+      <ArrowLongRightIcon width={35} />
+    </FlexBox>
+  )
+
   return (
     <Deck
       {...{backdropStyle: {background: '#fff'}}}
@@ -26,6 +32,14 @@ export default function MainDeck() {
         </FlexBox>
 
         <Heading>For You</Heading>
+
+        <FlexBox>
+          <Text fontSize={25} textAlign="center">
+            Swipe to read
+          </Text>
+
+          <ArrowLongRightIcon width={35} />
+        </FlexBox>
       </Slide>
 
       <Slide>
@@ -34,6 +48,8 @@ export default function MainDeck() {
         </Text>
 
         <Text>DO YOU EVER FEEL LIKE NOBODY REALLY CARES?</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -42,6 +58,8 @@ export default function MainDeck() {
         </Text>
 
         <Text>He knows all about you, and He sends you this message</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -63,11 +81,15 @@ export default function MainDeck() {
           <StopIcon height={40} width={40} style={{marginRight: 10}} />
           <Text>I HOPE SO</Text>
         </FlexBox>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>After you have answered this question, read the next few Bible verses.</Text>
         <Text>Then you will know for sure if you are really going to Heaven according to the Bible, God's Word.</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -80,12 +102,16 @@ export default function MainDeck() {
             Romans 3:23
           </strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>Have you ever lied or taken something that belonged to someone else?</Text>
         <Text>Then you have sinned.</Text>
         <Text>Everyone is a sinner.</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -97,27 +123,37 @@ export default function MainDeck() {
             Romans 6:23
           </strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>That's right.</Text>
         <Text>Sin separates us from God.</Text>
         <Text>There is a price on our sin.</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>If we die in our sins, we are eternally lost and forever separated from God.</Text>
         <Text>God offers another way.</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>We can have eternally life as a free gift.</Text>
         <Text>This means we can't earn it by being good, or by going to church, or by baptism, or anything else.</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>We simply receive eternal life as a free gift through Jesus Christ.</Text>
         <Text>God's Son.</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -130,12 +166,16 @@ export default function MainDeck() {
             John 1:12
           </strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>
           <strong>HAVE YOU TAKEN THE STEP OF FAITH TO RECEIVE JESUS CHRIST AS YOUR PERSONAL SAVIOR?</strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -149,10 +189,14 @@ export default function MainDeck() {
             Revelation 3:20
           </strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>He is talking about the door of your heart!</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -163,11 +207,15 @@ export default function MainDeck() {
         <Text>
           My Friend, the Lord Jesus Christ is knocking at <strong>YOUR</strong> heart's door right now!
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>Will you receive Him? Will you invite Him into your heart and life?</Text>
         <Text>How can you do this?</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -180,6 +228,8 @@ export default function MainDeck() {
         <Text>
           Whosoever means anybody. Whosoever means <strong>YOU!</strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -189,10 +239,14 @@ export default function MainDeck() {
         <Text>
           <strong>Don't put it off!</strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>Right now you can receive the Lord Jesus Christ, if you'll pray and mean it in your heart:</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -202,6 +256,8 @@ export default function MainDeck() {
           Savior. Please take away my sins, and take me to Heaven when I die.
         </Text>
         <Text>In Jesus' name, Amen."</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -212,6 +268,8 @@ export default function MainDeck() {
         </Text>
 
         <Text>Did you pray that prayer and mean it?</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -232,6 +290,8 @@ export default function MainDeck() {
           </div>
           <Text>I did not receive (I rejected)</Text>
         </FlexBox>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -244,6 +304,8 @@ export default function MainDeck() {
             John 3:36
           </strong>
         </Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
@@ -252,15 +314,19 @@ export default function MainDeck() {
           your Christian life.
         </Text>
         <Text>May God bless you!</Text>
+
+        {nextArrow}
       </Slide>
 
       <Slide>
         <Text>Your friend,</Text>
+
         <Text fontSize={30}>
           <strong>Dr. Brad Weniger</strong>
           <br />
           Central Baptist Church
         </Text>
+
         <Text fontSize={30}>
           13910 Minnieville Road Woodbridge, VA 22193
           <br />
@@ -268,6 +334,16 @@ export default function MainDeck() {
           <br />
           office@cbcwoodbridge.org
         </Text>
+
+        <FlexBox justifyContent="start" alignItems="center">
+          <ArrowLongLeftIcon width={30} style={{marginLeft: 32, marginRight: -15}} />
+
+          <a href="/?slideIndex=0&stepIndex=0">
+            <Text fontSize={25} className="link">
+              Read from the beginning
+            </Text>
+          </a>
+        </FlexBox>
       </Slide>
     </Deck>
   )

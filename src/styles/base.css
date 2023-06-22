@@ -10,3 +10,8 @@
 .root > div > div > div> div > div > div:last-child {
     padding-bottom: 150px;
 }
+.link {
+    text-decoration: underline;
+    color: #0284c7 !important;
+    cursor: pointer;
+}
