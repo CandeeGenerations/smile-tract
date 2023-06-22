@@ -1,4 +1,4 @@
-import {MainDeck} from '@/pages/_decks/MainDeck'
+import MainDeck from '@/pages/_decks/MainDeck'
 
 export default function Home() {
   return (

@@ -1,8 +1,8 @@
 import {QuestionMarkCircleIcon, StopIcon} from '@heroicons/react/24/outline'
 import React from 'react'
-import {Deck, Slide, Heading, FlexBox, Text, Image, UnorderedList, ListItem} from 'spectacle'
+import {Deck, FlexBox, Heading, Image, Slide, Text} from 'spectacle'
 
-export const MainDeck = () => {
+export default function MainDeck() {
   return (
     <Deck
       {...{backdropStyle: {background: '#fff'}}}
@@ -12,7 +12,7 @@ export const MainDeck = () => {
         colors: {
           primary: '#000',
           secondary: '#000',
-          tertiary: '#eee',
+          tertiary: '#fff',
           // @ts-ignore
           background: '#fff',
         },
@@ -22,7 +22,7 @@ export const MainDeck = () => {
         <Heading>A Smile</Heading>
 
         <FlexBox alignItems="center">
-          <Image src="/smile.png" width={300} />
+          <Image src="/smile.png" width={300} alt="A smile for you" />
         </FlexBox>
 
         <Heading>For You</Heading>
