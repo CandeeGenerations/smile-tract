@@ -4,9 +4,9 @@ import {Deck, FlexBox, Heading, Image, Slide, Text} from 'spectacle'
 
 export default function MainDeck() {
   const nextArrow = (
-    <FlexBox justifyContent="end">
+    <Text>
       <ArrowLongRightIcon width={35} />
-    </FlexBox>
+    </Text>
   )
 
   return (
@@ -28,7 +28,7 @@ export default function MainDeck() {
         <Heading>A Smile</Heading>
 
         <FlexBox alignItems="center">
-          <Image src="/smile.png" width={300} alt="A smile for you" />
+          <Image src="/smile.png" width={300} alt="A smile for you" style={{maxWidth: 300, width: '100%'}} />
         </FlexBox>
 
         <Heading>For You</Heading>
@@ -65,17 +65,9 @@ export default function MainDeck() {
       <Slide>
         <Text>Are you 100% sure that if you died right now that you would go to Heaven?</Text>
 
-        <FlexBox alignItems="center" justifyContent="start">
-          <Text>YES</Text>
-        </FlexBox>
-
-        <FlexBox alignItems="center" justifyContent="start">
-          <Text>NO</Text>
-        </FlexBox>
-
-        <FlexBox alignItems="center" justifyContent="start">
-          <Text>I HOPE SO</Text>
-        </FlexBox>
+        <Text>YES</Text>
+        <Text>NO</Text>
+        <Text>I HOPE SO</Text>
 
         {nextArrow}
       </Slide>
@@ -219,13 +211,9 @@ export default function MainDeck() {
           <strong>Did you sincerely pray that prayer and trust Jesus Christ as your personal Savior?</strong>
         </Text>
 
-        <FlexBox alignItems="center" justifyContent="start">
-          <Text>I received.</Text>
-        </FlexBox>
+        <Text>I received.</Text>
 
-        <FlexBox alignItems="center" justifyContent="start">
-          <Text>I did not receive. (I rejected)</Text>
-        </FlexBox>
+        <Text>I did not receive. (I rejected)</Text>
 
         {nextArrow}
       </Slide>
