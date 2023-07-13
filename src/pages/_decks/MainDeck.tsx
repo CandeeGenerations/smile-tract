@@ -44,7 +44,7 @@ export default function MainDeck() {
 
       <Slide>
         <Text fontSize={55} textAlign="left">
-          <strong>LIFE CAN BE DIFFICULT.</strong>
+          LIFE CAN BE DIFFICULT.
         </Text>
 
         <Text>DO YOU EVER FEEL LIKE NOBODY REALLY CARES?</Text>
@@ -54,31 +54,26 @@ export default function MainDeck() {
 
       <Slide>
         <Text fontSize={60} textAlign="left">
-          <strong>WELL, GOD CARES!</strong>
+          WELL, GOD CARES!
         </Text>
 
-        <Text>He knows all about you, and He sends you this message</Text>
+        <Text>He knows all about you, and He sends you this message.</Text>
 
         {nextArrow}
       </Slide>
 
       <Slide>
-        <Text>
-          Do you know for sure that <strong>Heaven</strong> is your Home?
-        </Text>
+        <Text>Are you 100% sure that if you died right now that you would go to Heaven?</Text>
 
         <FlexBox alignItems="center" justifyContent="start">
-          <StopIcon height={40} width={40} style={{marginRight: 10}} />
           <Text>YES</Text>
         </FlexBox>
 
         <FlexBox alignItems="center" justifyContent="start">
-          <StopIcon height={40} width={40} style={{marginRight: 10}} />
           <Text>NO</Text>
         </FlexBox>
 
         <FlexBox alignItems="center" justifyContent="start">
-          <StopIcon height={40} width={40} style={{marginRight: 10}} />
           <Text>I HOPE SO</Text>
         </FlexBox>
 
@@ -86,16 +81,24 @@ export default function MainDeck() {
       </Slide>
 
       <Slide>
-        <Text>After you have answered this question, read the next few Bible verses.</Text>
-        <Text>Then you will know for sure if you are really going to Heaven according to the Bible, God's Word.</Text>
+        <Text>
+          The Bible says that you can <u>know</u> so!
+        </Text>
+        <Text>Keep reading the next few Bible verses.</Text>
+        <Text>Then you will know for sure if you are going to Heaven.</Text>
 
         {nextArrow}
       </Slide>
 
       <Slide>
-        <Text>The Bible says,</Text>
+        <Text>
+          <u>FIRST</u>,
+        </Text>
+        <Text>Admit that you (and all of us) have sinned.</Text>
 
         <Text>
+          The Bible, God's Word, says,
+          <br />
           <strong>
             "For all have sinned, and come short of the glory of God."
             <br />
@@ -107,63 +110,25 @@ export default function MainDeck() {
       </Slide>
 
       <Slide>
-        <Text>Have you ever lied or taken something that belonged to someone else?</Text>
+        <Text>Have you ever lied or taken something that didn't belong to you?</Text>
         <Text>Then you have sinned.</Text>
-        <Text>Everyone is a sinner.</Text>
 
         {nextArrow}
       </Slide>
 
       <Slide>
-        <Text>The Bible says,</Text>
         <Text>
-          <strong>
-            "For the wages of sin is death: but the gift of God is eternal life through Jesus Christ our Lord."
-            <br />
-            Romans 6:23
-          </strong>
+          <u>SECOND</u>,
         </Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
-        <Text>That's right.</Text>
-        <Text>Sin separates us from God.</Text>
-        <Text>There is a price on our sin.</Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
-        <Text>If we die in our sins, we are eternally lost and forever separated from God.</Text>
-        <Text>God offers another way.</Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
-        <Text>We can have eternally life as a free gift.</Text>
-        <Text>This means we can't earn it by being good, or by going to church, or by baptism, or anything else.</Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
-        <Text>We simply receive eternal life as a free gift through Jesus Christ.</Text>
-        <Text>God's Son.</Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
-        <Text>The Bible says,</Text>
+        <Text>Recognize that the price on our sin is death and hell.</Text>
 
         <Text>
+          The Bible says,
+          <br />
           <strong>
-            "But as many as received Him, to them gave He power to become the sons of God."
+            "For the wages of sin is death..."
             <br />
-            John 1:12
+            Romans 6:23a
           </strong>
         </Text>
 
@@ -172,21 +137,23 @@ export default function MainDeck() {
 
       <Slide>
         <Text>
-          <strong>HAVE YOU TAKEN THE STEP OF FAITH TO RECEIVE JESUS CHRIST AS YOUR PERSONAL SAVIOR?</strong>
+          <u>THIRD</u>,
+        </Text>
+        <Text>
+          Eternal life in Heaven is a FREE GIFT from God if you receive the Lord Jesus Christ as your personal Savior.
         </Text>
 
         {nextArrow}
       </Slide>
 
       <Slide>
-        <Text>Jesus said,</Text>
-
         <Text>
+          The Bible says,
+          <br />
           <strong>
-            "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to
-            him..."
+            "The gift of God is eternal life through Jesus Christ our Lord."
             <br />
-            Revelation 3:20
+            Romans 6:23b
           </strong>
         </Text>
 
@@ -194,57 +161,44 @@ export default function MainDeck() {
       </Slide>
 
       <Slide>
-        <Text>He is talking about the door of your heart!</Text>
+        <Text>
+          <u>FINALLY</u>,
+        </Text>
+        <Text>Call on the Lord in prayer, and by faith, ask Him to save you from your sins!</Text>
 
         {nextArrow}
       </Slide>
 
       <Slide>
         <Text>
-          If your best friend knocked at the door of your home, you would say, <strong>"Come in," wouldn't you?</strong>
-        </Text>
-
-        <Text>
-          My Friend, the Lord Jesus Christ is knocking at <strong>YOUR</strong> heart's door right now!
-        </Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
-        <Text>Will you receive Him? Will you invite Him into your heart and life?</Text>
-        <Text>How can you do this?</Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
-        <Text>
-          <strong>Romans 10:13</strong> says,
-        </Text>
-        <Text>
-          <strong>"For whosoever shall call upon the name of the Lord shall be saved."</strong>
-        </Text>
-        <Text>
-          Whosoever means anybody. Whosoever means <strong>YOU!</strong>
+          The Bible says,
+          <br />
+          <strong>
+            "For whosoever shall call upon the name of the Lord shall be saved."
+            <br />
+            Romans 10:13
+          </strong>
         </Text>
 
         {nextArrow}
       </Slide>
 
       <Slide>
-        <Text fontSize={60} textAlign="left">
-          <strong>What will your answer be?</strong>
-        </Text>
         <Text>
-          <strong>Don't put it off!</strong>
+          <u>Whosoever</u> means anybody.
+        </Text>
+
+        <Text>
+          <u>Whosoever</u> means YOU!
         </Text>
 
         {nextArrow}
       </Slide>
 
       <Slide>
-        <Text>Right now you can receive the Lord Jesus Christ, if you'll pray and mean it in your heart:</Text>
+        <Text>
+          <u>RIGHT NOW</u>, bow your head, and <u>repeat this prayer</u> to God, sincerely meaning it in your heart:
+        </Text>
 
         {nextArrow}
       </Slide>
@@ -261,42 +215,25 @@ export default function MainDeck() {
       </Slide>
 
       <Slide>
-        <QuestionMarkCircleIcon width={200} />
-
-        <Text fontSize={60}>
-          <strong>Which Choice Did You Make?</strong>
-        </Text>
-
-        <Text>Did you pray that prayer and mean it?</Text>
-
-        {nextArrow}
-      </Slide>
-
-      <Slide>
         <Text>
-          <strong>Did you trust Jesus Christ as your personal Savior?</strong>
+          <strong>Did you sincerely pray that prayer and trust Jesus Christ as your personal Savior?</strong>
         </Text>
 
         <FlexBox alignItems="center" justifyContent="start">
-          <div>
-            <StopIcon height={40} width={40} style={{marginRight: 10}} />
-          </div>
-          <Text>I received</Text>
+          <Text>I received.</Text>
         </FlexBox>
 
         <FlexBox alignItems="center" justifyContent="start">
-          <div>
-            <StopIcon height={40} width={40} style={{marginRight: 10}} />
-          </div>
-          <Text>I did not receive (I rejected)</Text>
+          <Text>I did not receive. (I rejected)</Text>
         </FlexBox>
 
         {nextArrow}
       </Slide>
 
       <Slide>
-        <Text>The Bible says,</Text>
         <Text>
+          The Bible says,
+          <br />
           <strong>
             "He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life;
             but the wrath of God abideth on him."
@@ -310,8 +247,8 @@ export default function MainDeck() {
 
       <Slide>
         <Text>
-          If you received Jesus Christ as your Savior, call or write us so that we may rejoice with you and help you in
-          your Christian life.
+          If you received Jesus Christ, please contact us so that we may rejoice with you and help you in your Christian
+          life.
         </Text>
         <Text>May God bless you!</Text>
 
@@ -328,7 +265,9 @@ export default function MainDeck() {
         </Text>
 
         <Text fontSize={30}>
-          13910 Minnieville Road Woodbridge, VA 22193
+          13910 Minnieville Road
+          <br />
+          Woodbridge, VA 22193
           <br />
           (703) 583-1717
           <br />
