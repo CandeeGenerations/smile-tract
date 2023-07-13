@@ -25,27 +25,23 @@ export default function MainDeck() {
       }}
     >
       <Slide>
-        <Heading>A Smile</Heading>
+        <Text textAlign="center">
+          <strong>A Smile</strong>
+          <br />
+          <Image src="/smile.png" width={150} alt="A smile for you" />
+          <br />
+          <strong>For You</strong>
+        </Text>
 
-        <FlexBox alignItems="center">
-          <Image src="/smile.png" width={300} alt="A smile for you" style={{maxWidth: 300, width: '100%'}} />
-        </FlexBox>
-
-        <Heading>For You</Heading>
-
-        <FlexBox>
-          <Text fontSize={25} textAlign="center">
-            Swipe to read
-          </Text>
-
+        <Text textAlign="center" fontSize={25}>
+          Swipe to read
+          <br />
           <ArrowLongRightIcon width={35} />
-        </FlexBox>
+        </Text>
       </Slide>
 
       <Slide>
-        <Text fontSize={55} textAlign="left">
-          LIFE CAN BE DIFFICULT.
-        </Text>
+        <Text textAlign="left">LIFE CAN BE DIFFICULT.</Text>
 
         <Text>DO YOU EVER FEEL LIKE NOBODY REALLY CARES?</Text>
 
@@ -53,9 +49,7 @@ export default function MainDeck() {
       </Slide>
 
       <Slide>
-        <Text fontSize={60} textAlign="left">
-          WELL, GOD CARES!
-        </Text>
+        <Text textAlign="left">WELL, GOD CARES!</Text>
 
         <Text>He knows all about you, and He sends you this message.</Text>
 
@@ -207,13 +201,15 @@ export default function MainDeck() {
       </Slide>
 
       <Slide>
-        <Text>
-          <strong>Did you sincerely pray that prayer and trust Jesus Christ as your personal Savior?</strong>
-        </Text>
+        <Text>Did you sincerely pray that prayer and trust Jesus Christ as your personal Savior?</Text>
 
         <Text>I received.</Text>
 
-        <Text>I did not receive. (I rejected)</Text>
+        <Text>
+          I did not receive.
+          <br />
+          (I rejected)
+        </Text>
 
         {nextArrow}
       </Slide>
