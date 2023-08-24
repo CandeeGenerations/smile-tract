@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "icon": {
+        "color": "terminal.ansiBlue",
+        "id": "device-desktop"
+      },
+      "label": "Start App",
+      "detail": "next dev"
+    }
+  ]
+}
