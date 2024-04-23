@@ -1,6 +1,5 @@
-import {ArrowLongLeftIcon, ArrowLongRightIcon, QuestionMarkCircleIcon, StopIcon} from '@heroicons/react/24/outline'
-import React from 'react'
-import {Deck, FlexBox, Heading, Image, Slide, Text} from 'spectacle'
+import {ArrowLongLeftIcon, ArrowLongRightIcon} from '@heroicons/react/24/outline'
+import {Deck, FlexBox, Image, Slide, Text} from 'spectacle'
 
 export default function MainDeck() {
   const nextArrow = (
