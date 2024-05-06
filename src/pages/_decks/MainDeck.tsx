@@ -18,7 +18,7 @@ export default function MainDeck() {
           primary: '#000',
           secondary: '#000',
           tertiary: '#fff',
-          // @ts-ignore
+          // @ts-expect-error N/A
           background: '#fff',
         },
       }}
