@@ -25,7 +25,7 @@
     "start": "next start"
   },
   "resolutions": {
-    "trim": "0.0.3"
+    "trim": "^0.0.3"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",

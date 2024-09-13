@@ -10,7 +10,6 @@ Share a smile with someone today.
 
 - Node.js 20.x
 - PNPM 9.x
-- [Doppler](https://docs.doppler.com/docs/install-cli)
 
 ### Local Setup
 
