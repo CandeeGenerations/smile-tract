@@ -1,17 +1,17 @@
 .root > div > div {
-    width: 100vw;
-    height: 100vh;
-    transform-origin: unset;
-    transform: unset;
+  width: 100vw;
+  height: 100vh;
+  transform-origin: unset;
+  transform: unset;
 }
-.root > div > div > div> div {
-    overflow-y: auto;
+.root > div > div > div > div {
+  overflow-y: auto;
 }
-.root > div > div > div> div > div > div:last-child {
-    padding-bottom: 150px;
+.root > div > div > div > div > div > div:last-child {
+  padding-bottom: 150px;
 }
 .link {
-    text-decoration: underline;
-    color: #0284c7 !important;
-    cursor: pointer;
+  text-decoration: underline;
+  color: #0284c7 !important;
+  cursor: pointer;
 }

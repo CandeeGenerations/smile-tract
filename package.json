@@ -2,11 +2,27 @@
   "name": "smile-tract",
   "version": "0.1.0",
   "private": true,
+  "description": "Share a smile with someone today.",
+  "homepage": "https://github.com/CandeeGenerations/smile-tract#readme",
+  "bugs": {
+    "url": "https://github.com/CandeeGenerations/smile-tract/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CandeeGenerations/smile-tract.git"
+  },
+  "license": "MIT",
+  "author": "Candee Generations <admin@candeegenerations.com>",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint 'src/**/*.{ts,tsx}'"
+    "dev": "next dev",
+    "eslint": "eslint 'src/**/*.{ts,tsx}'",
+    "fix": "pnpm run eslint && pnpm run prettier --cache",
+    "preinstall": "sh scripts/check-versions.sh && npx only-allow pnpm",
+    "prepare": "husky",
+    "prettier": "prettier --cache --check --write --ignore-unknown .",
+    "prettier:ci": "prettier --check .",
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
@@ -17,15 +33,25 @@
     "spectacle": "^10.1.8"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
     "@eslint/js": "^9.9.1",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/node": "^22.5.0",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "eslint": "^9.9.1",
     "globals": "^15.9.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
+    "sort-package-json": "^2.10.1",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.2.0"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
 }
