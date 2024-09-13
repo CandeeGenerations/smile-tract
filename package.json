@@ -24,6 +24,9 @@
     "prettier:ci": "prettier --check .",
     "start": "next start"
   },
+  "resolutions": {
+    "trim": "0.0.3"
+  },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "@netlify/plugin-nextjs": "^5.6.0",
