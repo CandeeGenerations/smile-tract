@@ -18,7 +18,7 @@
     "dev": "next dev",
     "eslint": "eslint 'src/**/*.{ts,tsx}'",
     "fix": "pnpm run eslint && pnpm run prettier --cache",
-    "preinstall": "sh scripts/check-versions.sh && npx only-allow pnpm",
+    "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "prettier": "prettier --cache --check --write --ignore-unknown .",
     "prettier:ci": "prettier --check .",
