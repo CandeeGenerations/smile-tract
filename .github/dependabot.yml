@@ -13,6 +13,11 @@ updates:
       interval: 'weekly'
     reviewers:
       - 'cgen01'
+    ignore:
+      - dependency-name: 'react'
+      - dependency-name: 'react-dom'
+      - dependency-name: '@types/react'
+      - dependency-name: '@types/react-dom'
     groups:
       catchall:
         patterns:
