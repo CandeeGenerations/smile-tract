@@ -8,8 +8,8 @@ Share a smile with someone today.
 
 ### Prerequisites
 
-- Node.js 20.x
-- PNPM 9.x
+- Node.js 22.x
+- PNPM 10.x
 
 ### Local Setup
 
