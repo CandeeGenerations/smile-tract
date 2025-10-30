@@ -8,8 +8,8 @@ This is a Next.js application called "Smile Tract" - a presentation/slide deck a
 
 ## Technology Stack
 
-- **Framework**: Next.js 15.x (Pages Router)
-- **React**: 18.3.1
+- **Framework**: Next.js 16.x (Pages Router)
+- **React**: 19.2.x
 - **Presentation Library**: Spectacle 10.x (slide deck framework)
 - **Icons**: Heroicons
 - **Styling**: CSS (base.css in src/styles)
