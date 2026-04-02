@@ -112,7 +112,7 @@ Runs on push/PR to main branch:
 
 ## Environment Requirements
 
-- **Node.js**: >=22.0.0 (specified in .nvmrc and package.json engines)
+- **Node.js**: >=24.0.0 (specified in .nvmrc and package.json engines)
 - **Package Manager**: PNPM >=10.0.0 (enforced by preinstall script)
 - **Corepack**: Required for PNPM version management
 
