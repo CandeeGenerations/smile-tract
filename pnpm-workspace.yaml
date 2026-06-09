@@ -1,0 +1,9 @@
+allowBuilds:
+  sharp: true
+minimumReleaseAgeExclude:
+  - prettier@3.8.4
+overrides:
+  '@babel/runtime': ^7.26.10
+  postcss: ^8.5.10
+  prismjs: ^1.30.0
+  trim: ^0.0.3
