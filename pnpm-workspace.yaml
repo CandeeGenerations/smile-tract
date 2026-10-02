@@ -1,7 +1,5 @@
 allowBuilds:
   sharp: true
-minimumReleaseAgeExclude:
-  - prettier@3.8.4
 overrides:
   '@babel/runtime': '>=7.26.10 <8.0.0'
   baseline-browser-mapping: '>=2.11.0 <3.0.0'
