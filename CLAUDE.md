@@ -37,13 +37,14 @@ pnpm run start
 ### Code Quality
 
 ```bash
-# Run ESLint
-pnpm run eslint
+# Run Oxlint (check / auto-fix)
+pnpm run lint
+pnpm run lint:fix
 
 # Run Prettier (check and fix)
 pnpm run prettier
 
-# Fix both ESLint and Prettier
+# Lint (check only) and format with Prettier
 pnpm run fix
 
 # Prettier CI check (no write)
@@ -86,15 +87,14 @@ src/
 
 - **pre-commit**: Runs `lint-staged` which executes:
   - Prettier formatting on all supported files
-  - ESLint with auto-fix on TypeScript/TSX files
+  - Oxlint with auto-fix on TypeScript/TSX files in `src/`
   - `sort-package-json` on package.json
 - **commit-msg**: Validates commit messages using Commitlint (conventional commits format)
 
 ### Linting
 
-- ESLint configured with TypeScript support
-- Uses recommended configs from `@eslint/js` and `typescript-eslint`
-- Target files: `src/**/*.{ts,tsx}`
+- Oxlint, configured in `.oxlintrc.json` (migrated from the `@eslint/js` + `typescript-eslint` recommended rule sets)
+- Target directory: `src/`
 
 ### Formatting
 
@@ -108,7 +108,7 @@ src/
 Runs on push/PR to main branch:
 
 1. **Prettier check**: `pnpm run prettier:ci`
-2. **ESLint**: `pnpm run eslint`
+2. **Oxlint**: `pnpm run lint`
 
 ## Environment Requirements
 
