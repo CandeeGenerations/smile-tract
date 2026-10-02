@@ -2,13 +2,5 @@ allowBuilds:
   sharp: true
 overrides:
   '@babel/runtime': '>=7.26.10 <8.0.0'
-  baseline-browser-mapping: '>=2.11.0 <3.0.0'
-  brace-expansion@1: '>=1.1.21 <2.0.0'
-  brace-expansion@2: '>=2.1.7 <3.0.0'
-  brace-expansion@5: '>=5.0.12 <6.0.0'
-  browserslist: '>=4.28.7 <5.0.0'
-  fast-uri: '>=3.1.8 <4.0.0'
-  js-yaml: '>=4.3.2 <5.0.0'
   prismjs: '>=1.30.0 <2.0.0'
-  shell-quote: '>=1.9.0 <2.0.0'
   trim: '>=0.0.3 <1.0.0'
